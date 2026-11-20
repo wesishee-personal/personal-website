@@ -2,7 +2,7 @@
 
 Personal site for Wes Ishee — [wesishee.com](https://wesishee.com)
 
-Vite + React + TypeScript, hand-written CSS, no framework. Three routes: About
+Vite + React + TypeScript, hand-written CSS, no framework. Three routes: Home
 (`/`), Projects (`/projects`), Resume (`/resume`).
 
 ## Develop
@@ -21,10 +21,11 @@ Page content lives in `src/data/`, separate from the components that render it:
 
 | File | Holds |
 | --- | --- |
-| `profile.ts` | Name, title, contact links, About-page bio, resume summary |
+| `profile.ts` | Name, title, contact links, homepage hero, bio, resume summary |
 | `projects.ts` | Project cards (add `link` to a project to render a link on its card) |
 | `experience.ts` | Work history bullets and education |
 | `skills.ts` | Skill categories |
+| `viatuta.ts` | Homepage Viatuta feature (set `url` once the app is live) |
 
 The downloadable resume is `public/wes-ishee-resume.pdf` — replace the file to
 update it.
