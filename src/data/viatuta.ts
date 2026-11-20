@@ -8,8 +8,8 @@ export const viatuta = {
   status: 'In development',
   tagline: 'A cycling route planner that optimises for safety first.',
   description: [
-    'Not distance, not time: safety is the objective function and everything else is a constraint on it. Viatuta ships its own routing engine because the cost function is the product, so it has to be mine to tune.',
-    'Bike lanes, road type, and speed limits from OpenStreetMap feed the cost alongside historical cyclist collisions, junction risk, and terrain. Riders can report hazards that change routes immediately. v1 covers Austin, TX.',
+    'While training for an Ironman 70.3 triathlon, I had one too many close calls with cars and decided that cyclists need a way to find safe routes to ride both for commuting as well as for exercise. Thus Viatuta was born. The name is a paraphrase of a latin phrase that means "The safe route".',
+    'With the methodology based on a 2012 study on cyclist\'s interactions with traffic patterns, Viatuta optimizes routing for safety for cyclists. It factors in cycling infrastructure, historical collision reports, speed limits, road surface, lighting, and user reported hazards to find the safest route for a cyclist to get from A to B.',
   ],
   tags: ['Go', 'PostGIS', 'React', 'Mapbox', 'iOS'],
   stats: [
