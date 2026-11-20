@@ -7,6 +7,10 @@ export const profile = {
   name: 'Wes Ishee',
   title: 'Senior Software Engineer — Distributed Systems & Platform',
   location: 'Austin, TX',
+  /** Homepage hero. */
+  headline: 'Backend engineer. Cyclist. Builder of things that stay up.',
+  tagline:
+    'Senior Software Engineer at Salesforce (Pardot) since 2014. Distributed systems, internet-scale APIs, and the observability that catches problems before customers do.',
   email: 'wesishee@gmail.com',
   phone: '(512) 996-7257',
   links: [
@@ -15,7 +19,7 @@ export const profile = {
     { label: 'GitHub', href: 'https://github.com/wesishee-personal' },
   ] as ProfileLink[],
 
-  /** First person, for the About page. */
+  /** First person, for the homepage and bio. */
   bio: [
     "I'm a backend engineer in Austin, Texas. For the past twelve years I've designed, built, and operated high-throughput distributed systems and internet-scale APIs — mostly in PHP, with Python and TypeScript along the way.",
     "I've been at Salesforce on the Pardot team since 2014, where I lead technically and own services end to end: architecture and API versioning through incident response and performance work. The problems I like most are the unglamorous ones — sync pipelines that fall behind, APIs that have to stay backward compatible for years, observability that should have surfaced a problem before a customer did.",
